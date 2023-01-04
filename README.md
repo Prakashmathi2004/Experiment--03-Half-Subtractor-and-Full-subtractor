@@ -60,8 +60,10 @@ assign Diff=(A ^ B ^ C);
 endmodule
 
 ## Truthtable
+
 HALF SUBTRACTOR truth table:
 ![image](https://user-images.githubusercontent.com/118350045/210563714-2902033f-f97e-4aab-8a35-30c3aace70b1.png)
+
 Full subtractor truth table:
 ![image](https://user-images.githubusercontent.com/118350045/210565499-25f725bd-595f-40cf-be2f-e8a1001efee5.png)
 
