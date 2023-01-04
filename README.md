@@ -43,30 +43,20 @@ RegisterNumber:22009001
 HALF SUBTRACTOR:
 
 module halfsub(A,B,Diff,borr);
-
 input A,B;
-
 output Diff,borr;
-
 assign Diff = (A ^ B);
-
 assign borr = (~ A & B);
-
 endmodule
 
 
 FULL SUBTRACTOR:
 
 module EX3 (A,B,C,Diff,Borrow);
-
 input A,B,C;
-
 output Diff,Borrow;
-
 assign Borrow=(~A&(B ^ C) | (B & C));
-
 assign Diff=(A ^ B ^ C);
-
 endmodule
 
 ## Truthtable
