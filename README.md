@@ -52,11 +52,11 @@ endmodule
 
 FULL SUBTRACTOR:
 
-module EX3 (A,B,C,Diff,Borrow);
-input A,B,C;
-output Diff,Borrow;
-assign Borrow=(~A&(B ^ C) | (B & C));
-assign Diff=(A ^ B ^ C);
+module EX3 (A,B,C,Diff,Borrow);\n
+input A,B,C;\n
+output Diff,Borrow;\n
+assign Borrow=(~A&(B ^ C) | (B & C));\n
+assign Diff=(A ^ B ^ C);\n
 endmodule
 
 ## Truthtable
